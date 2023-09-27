@@ -23,42 +23,39 @@ Before you begin, ensure you have the following software installed:
    ```bash
    git clone https://github.com/vikas-beniwal/wineDataStastics.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
- ```bash
- cd wineDataStastics
+     ```bash
+     cd wineDataStastics
 
-##Install project dependencies using Yarn:
+. install project dependencies using Yarn:
 
- ```bash
- yarn install
+     ```bash yarn install
 
-###Running the Application
-Now that you have installed the dependencies, you can run the application:
+3. Running the Application Now that you have installed the dependencies, you can run the application:
 
-```bash
-yarn start
+     ```bash yarn start
 
 ### Output
-![Table view](src/assets/Screenshot.png)
-![Alt text](image-1.png)
-![Alt text](https://screenshot.googleplex.com/65Nezd4UViGJr5Z.png)
+        ![Table view](src/assets/Screenshot.png)
+        ![Alt text](image-1.png)
+        ![Alt text](https://screenshot.googleplex.com/65Nezd4UViGJr5Z.png)
 
-### Usage
-The application displays statistics for two properties: "Flavanoids" and "Gamma."
-Statistics are calculated for different classes of wine.
-You can view the mean, median, and mode statistics for each property and class.
+4. ### Usage
+    The application displays statistics for two properties: "Flavanoids" and "Gamma."
+    Statistics are calculated for different classes of wine.
+    You can view the mean, median, and mode statistics for each property and class.
 
-### Contributing
-If you'd like to contribute to this project, please follow these guidelines:
+5. ### Contributing
+    If you'd like to contribute to this project, please follow these guidelines:
 
-Fork the repository on GitHub.
-Create a new branch with a descriptive name for your feature or bug fix.
-Make your changes and commit them with clear messages.
-Push your branch to your fork on GitHub.
-Create a pull request to merge your changes into the main repository.
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+6. Fork the repository on GitHub.
+    Create a new branch with a descriptive name for your feature or bug fix.
+    Make your changes and commit them with clear messages.
+    Push your branch to your fork on GitHub.
+    Create a pull request to merge your changes into the main repository.
+    License
+    This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ### Acknowledgments
 Special thanks to the creators of React for providing a powerful framework.
