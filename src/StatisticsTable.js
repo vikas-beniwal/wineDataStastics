@@ -2,25 +2,17 @@ import React from 'react';
 import { calculateMean, calculateMedian, calculateMode,calculateGamma } from './utils';
 
 const StatisticsTable = ({ data, property }) => {
-  // console.log(data, 'data')
   const classList = [...new Set(data.map((wine) => wine.Alcohol))];
   const gammaProperties = data.map((item)=>calculateGamma(item))
   const newData = data.map((item, index)=>{return{...item , "gamma":gammaProperties[index]}})
-  //  console.log(newData, 'gammaProperties11');
   const getPropertyValues = (property, classNumber) => {
-    console.log(property, 'pppppppp')
-    if(property==="Flavanoids"){
+=    if(property==="Flavanoids"){
       return calculateMean(
         data
           .filter((wine) => wine.Alcohol === classNumber)
           .map((wine) => wine[property])
       ).toFixed(3);
     }if(property==="gamma"){
-      const filtered = newData
-      .filter((wine) => wine.Alcohol === classNumber)
-      console.log(filtered, 'filter')
-      console.log(filtered.map((wine)=>wine[property]));
-
       return calculateMean(
         newData
           .filter((wine) => wine.Alcohol === classNumber)

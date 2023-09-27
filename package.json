@@ -16,7 +16,8 @@
     "start": "react-scripts start --port 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "remove-logs": "babel src --out-dir dist"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +36,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-react": "^7.22.15",
+    "babel-plugin-minify-dead-code-elimination": "^0.5.2",
+    "babel-plugin-transform-remove-console": "^6.9.4"
   }
 }

@@ -1,13 +1,11 @@
 // src/utils.js
 
 export function calculateGamma(dataPoint) {
-  // console.log(dataPoint, 'dataPoint', dataPoint.Ash, '1');
   return (dataPoint.Ash * dataPoint.Hue) / dataPoint.Magnesium;
 }
 
 // Function to calculate the mean of an array
 export function calculateMean(arr) {
-  // console.log(arr, 'arr');
     const sum = arr.reduce((total, val) => total + parseFloat(val), 0);
     return sum / arr.length;
   }
