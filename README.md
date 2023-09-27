@@ -41,6 +41,8 @@ yarn start
 
 ### Output
 ![Table view](src/assets/Screenshot.png)
+![Alt text](image-1.png)
+![Alt text](https://screenshot.googleplex.com/65Nezd4UViGJr5Z.png)
 
 ### Usage
 The application displays statistics for two properties: "Flavanoids" and "Gamma."
