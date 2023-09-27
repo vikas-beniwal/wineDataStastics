@@ -39,7 +39,7 @@ Now that you have installed the dependencies, you can run the application:
 ```bash
 yarn start
 
-![Table view](image.png)
+![Table view](https://screenshot.googleplex.com/4Wptj9Bxz3MSHPR)
 
 Usage
 The application displays statistics for two properties: "Flavanoids" and "Gamma."
