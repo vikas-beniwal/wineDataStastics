@@ -71,7 +71,7 @@ const StatisticsTable = ({ data, property }) => {
 
   return (
     <div className='container'>
-      <h1>Wine Statistics</h1>
+      <h1>Flavanoids Statistics</h1>
       <table>
         <thead>
           <tr>

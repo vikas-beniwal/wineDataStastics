@@ -8,7 +8,7 @@ export function calculateGamma(dataPoint) {
 // Function to calculate the mean of an array
 export function calculateMean(arr) {
   // console.log(arr, 'arr');
-    const sum = arr.reduce((total, val) => total + val, 0);
+    const sum = arr.reduce((total, val) => total + parseFloat(val), 0);
     return sum / arr.length;
   }
   
