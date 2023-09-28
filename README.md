@@ -25,16 +25,18 @@ Before you begin, ensure you have the following software installed:
 
 2. Navigate to the project directory:
 
-     ```bash
+   ```bash
      cd wineDataStastics
 
-. install project dependencies using Yarn:
+3. install project dependencies using Yarn:
 
-     ```bash yarn install
+   ```bash
+      yarn install
 
 3. Running the Application Now that you have installed the dependencies, you can run the application:
 
-     ```bash yarn start
+   ```bash
+      yarn start
 
 ### Output
         ![Table view](src/assets/Screenshot.png)
@@ -44,12 +46,12 @@ Before you begin, ensure you have the following software installed:
         
 
 4. ### Usage
-    The application displays statistics for two properties: "Flavanoids" and "Gamma."
-    Statistics are calculated for different classes of wine.
-    You can view the mean, median, and mode statistics for each property and class.
+       The application displays statistics for two properties: "Flavanoids" and "Gamma."
+       Statistics are calculated for different classes of wine.
+       You can view the mean, median, and mode statistics for each property and class.
 
 5. ### Contributing
-    If you'd like to contribute to this project, please follow these guidelines:
+       If you'd like to contribute to this project, please follow these guidelines:
 
 6. Fork the repository on GitHub.
     Create a new branch with a descriptive name for your feature or bug fix.
