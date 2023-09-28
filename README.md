@@ -40,6 +40,8 @@ Before you begin, ensure you have the following software installed:
         ![Table view](src/assets/Screenshot.png)
         ![Alt text](image-1.png)
         ![Alt text](https://screenshot.googleplex.com/65Nezd4UViGJr5Z.png)
+![Screenshot from 2023-09-28 04-12-47](https://github.com/vikas-beniwal/wineDataStastics/assets/37648072/f41a726a-1f8b-470d-8f07-877064cf4cd6)
+        
 
 4. ### Usage
     The application displays statistics for two properties: "Flavanoids" and "Gamma."
