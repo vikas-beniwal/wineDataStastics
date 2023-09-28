@@ -6,7 +6,7 @@ const StatisticsTable = ({ data, property }) => {
   const gammaProperties = data.map((item)=>calculateGamma(item))
   const newData = data.map((item, index)=>{return{...item , "gamma":gammaProperties[index]}})
   const getPropertyValues = (property, classNumber) => {
-=    if(property==="Flavanoids"){
+    if(property==="Flavanoids"){
       return calculateMean(
         data
           .filter((wine) => wine.Alcohol === classNumber)
